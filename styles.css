@@ -1,0 +1,122 @@
+/* Estilos Generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background: url(imagenes/biblioteca.jpg) no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Contenedor Principal */
+.contenedor {
+    background-color: rgba(40, 40, 40, 0.7); /* Fondo oscuro semitransparente */
+    width: 90vw;
+    max-width: 600px;
+    min-height: 300px;
+    padding: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.2); /* Borde sutil */
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra suave */
+}
+
+/* Título */
+#titulo {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'Courgette', cursive;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+}
+
+/* Contenedor Interno */
+.contenedor-interno {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Cita y Autor */
+#cita {
+    font-size: 1.5rem;
+    margin: 20px 0;
+    color: #fff;
+    line-height: 1.5;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+}
+
+#autor {
+    font-size: 1.2rem;
+    font-family: 'Courgette', cursive;
+    color: #fff;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+}
+
+/* Botón */
+#boton-cambiar-cita {
+    width: 180px;
+    height: 50px;
+    font-size: 1rem;
+}
+
+#boton-cambiar-cita:hover {
+    background-color: rgba(0, 86, 179, 0.9); /* Azul más oscuro al hacer hover */
+}
+
+/* Media Queries para Responsive Design */
+@media (max-width: 768px) {
+    #titulo {
+        font-size: 2rem;
+    }
+
+    #cita {
+        font-size: 1.2rem;
+    }
+
+    #autor {
+        font-size: 1rem;
+    }
+
+    #boton-cambiar-cita {
+        width: 150px;
+        height: 40px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .contenedor {
+        width: 95vw;
+        padding: 15px;
+    }
+
+    #titulo {
+        font-size: 1.8rem;
+    }
+
+    #cita {
+        font-size: 1rem;
+    }
+
+    #autor {
+        font-size: 0.9rem;
+    }
+
+    #boton-cambiar-cita {
+        width: 130px;
+        height: 35px;
+        font-size: 0.8rem;
+    }
+}
