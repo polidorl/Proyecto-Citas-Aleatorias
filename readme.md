@@ -1,6 +1,8 @@
 
 https://polidorl.github.io/Proyecto-Citas-Aleatorias/
 
+https://github.com/polidorl/Proyecto-Citas-Aleatorias
+
 
 ### **Nombre del Proyecto:**
 **"Inspiración Aleatoria: Generador de Citas Motivacionales"**
